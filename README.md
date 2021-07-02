@@ -11,11 +11,10 @@
 │   └── us-east-1
 │       ├── dev
 │       │   ├── ecs
-│       │   │   ├── ecs-cluster
+│       │   │   ├── cluster
 │       │   │   │   └── terragrunt.hcl
-│       │   │   └── resource.hcl
-│       │   ├── ecs-cluster
-│       │   ├── ecs-service
+│       │   │   ├── resource.hcl
+│       │   │   └── service
 │       │   ├── environment.hcl
 │       │   ├── iam
 │       │   │   └── resource.hcl
@@ -25,7 +24,7 @@
 │       └── region.hcl
 └── terragrunt.hcl
 
-10 directories, 10 files
+9 directories, 10 files
 ```
 
 
