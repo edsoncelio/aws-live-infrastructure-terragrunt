@@ -4,23 +4,28 @@
 ## Directory structure
 ```
 .
-├── account.hcl
-├── global
-└── us-east-1
-    ├── dev
-    │   ├── ecs
-    │   │   ├── ecs-cluster
-    │   │   │   └── terragrunt.hcl
-    │   │   └── resource.hcl
-    │   ├── environment.hcl
-    │   ├── iam
-    │   │   └── resource.hcl
-    │   └── vpc
-    │       ├── resource.hcl
-    │       └── terragrunt.hcl
-    └── region.hcl
+├── README.md
+├── sandbox
+│   ├── account.hcl
+│   ├── global
+│   └── us-east-1
+│       ├── dev
+│       │   ├── ecs
+│       │   │   ├── ecs-cluster
+│       │   │   │   └── terragrunt.hcl
+│       │   │   └── resource.hcl
+│       │   ├── ecs-cluster
+│       │   ├── ecs-service
+│       │   ├── environment.hcl
+│       │   ├── iam
+│       │   │   └── resource.hcl
+│       │   └── vpc
+│       │       ├── resource.hcl
+│       │       └── terragrunt.hcl
+│       └── region.hcl
+└── terragrunt.hcl
 
-7 directories, 8 files
+10 directories, 10 files
 ```
 
 
