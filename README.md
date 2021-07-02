@@ -22,3 +22,9 @@
 
 7 directories, 8 files
 ```
+
+
+## TODO
+- [ ] Add CI/CD (Github Actions | Atlantis)
+- [ ] Add an ECS stack with all dependencies (IAM, VPC, cluster...)
+- [ ] Improve the docs
